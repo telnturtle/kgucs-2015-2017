@@ -1,0 +1,143 @@
+[?1h=[?25l[H[2J(B[mtop - 23:51:14 up  1:50,  3 users,  load average: 0.21, 0.19, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 215 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 211 (B[m[39;49msleeping,(B[m[39;49m[1m   2 (B[m[39;49mstopped,(B[m[39;49m[1m   1 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  8.0 (B[m[39;49mus,(B[m[39;49m[1m  2.1 (B[m[39;49msy,(B[m[39;49m[1m  1.2 (B[m[39;49mni,(B[m[39;49m[1m 85.1 (B[m[39;49mid,(B[m[39;49m[1m  3.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024708 (B[m[39;49mtotal,(B[m[39;49m[1m   933264 (B[m[39;49mused,(B[m[39;49m[1m    91444 (B[m[39;49mfree,(B[m[39;49m[1m    10108 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m   202256 (B[m[39;49mused,(B[m[39;49m[1m   844268 (B[m[39;49mfree.(B[m[39;49m[1m   200428 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                                                (B[m[39;49m[K
+(B[m 2044 embedded  20   0  136780   4340   3144 S 11.6  0.4   0:08.39 vmtoolsd                                                                                               (B[m[39;49m[K
+(B[m 1152 root      20   0  285292  46616   7188 S  5.8  4.5   1:52.11 Xorg                                                                                                   (B[m[39;49m[K
+(B[m[1m31874 embedded  20   0    5572   2764   2344 R  5.8  0.3   0:00.02 top                                                                                                    (B[m[39;49m[K
+(B[m    1 root      20   0    4452   1820   1044 S  0.0  0.2   0:01.92 init                                                                                                   (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                                                                                               (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:02.86 ksoftirqd/0                                                                                            (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H                                                                                           (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0   0:03.67 rcu_sched                                                                                              (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh                                                                                                 (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0                                                                                            (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0   0:01.64 watchdog/0                                                                                             (B[m[39;49m[K
+(B[m   11 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 khelper                                                                                                (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs                                                                                              (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns                                                                                                  (B[m[39;49m[K
+(B[m   14 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf                                                                                                   (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd                                                                                             (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback                                                                                              (B[m[39;49m[K
+(B[m   17 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd                                                                                                   (B[m[39;49m[K
+(B[m   18 root      39  19       0      0      0 S  0.0  0.0   0:00.91 khugepaged                                                                                             (B[m[39;49m[K
+(B[m   19 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto                                                                                                 (B[m[39;49m[K
+(B[m   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd                                                                                            (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                 (B[m[39;49m[K
+(B[m   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd                                                                                                (B[m[39;49m[K
+(B[m   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff                                                                                                (B[m[39;49m[K
+(B[m   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md                                                                                                     (B[m[39;49m[K
+(B[m   25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq                                                                                             (B[m[39;49m[K
+(B[m   27 root      20   0       0      0      0 S  0.0  0.0   0:00.02 kworker/0:1                                                                                            (B[m[39;49m[K
+(B[m   29 root      20   0       0      0      0 S  0.0  0.0   0:06.46 kswapd0                                                                                                (B[m[39;49m[K
+(B[m   30 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark                                                                                          (B[m[39;49m[K
+(B[m   31 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                                                                                        (B[m[39;49m[K
+(B[m   43 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld                                                                                               (B[m[39;49m[K
+(B[m   44 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 acpi_thermal_pm                                                                                        (B[m[39;49m[K
+(B[m   45 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0                                                                                              (B[m[39;49m[K
+(B[m   46 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_0                                                                                             (B[m[39;49m[K
+(B[m   47 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1                                                                                              (B[m[39;49m[K
+(B[m   48 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_1                                                                                             (B[m[39;49m[K
+(B[m   51 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrconf                                                                                          (B[m[39;49m[K
+(B[m   64 root      20   0       0      0      0 S  0.0  0.0   0:01.66 kworker/0:2                                                                                            (B[m[39;49m[K
+(B[m   72 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 deferwq                                                                                                (B[m[39;49m[K
+(B[m   73 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 charger_manager                                                                                        (B[m[39;49m[K
+(B[m  119 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_2                                                                                              (B[m[39;49m[K[H(B[mtop - 23:51:17 up  1:50,  3 users,  load average: 0.19, 0.18, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 215 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 211 (B[m[39;49msleeping,(B[m[39;49m[1m   2 (B[m[39;49mstopped,(B[m[39;49m[1m   1 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.0 (B[m[39;49mus,(B[m[39;49m[1m  2.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 92.7 (B[m[39;49mid,(B[m[39;49m[1m  1.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024708 (B[m[39;49mtotal,(B[m[39;49m[1m   934100 (B[m[39;49mused,(B[m[39;49m[1m    90608 (B[m[39;49mfree,(B[m[39;49m[1m    10124 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m   202256 (B[m[39;49mused,(B[m[39;49m[1m   844268 (B[m[39;49mfree.(B[m[39;49m[1m   200488 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1152 root      20   0  285292  46616   7188 S  1.3  4.5   1:52.15 Xorg                                                                                                   (B[m[39;49m[K
+(B[m 2001 embedded  20   0  307160  26656  13488 S  1.3  2.6   1:10.06 compiz                                                                                                 (B[m[39;49m[K
+(B[m 1853 embedded  20   0  115824  10600   5848 S  1.0  1.0   0:01.11 hud-service                                                                                            (B[m[39;49m[K
+(B[m 2032 embedded  20   0  318268  23820  14692 S  1.0  2.3   0:08.10 nautilus                                                                                               (B[m[39;49m[K
+(B[m 2459 embedded  20   0 1009548 310240  42016 S  1.0 30.3   6:06.41 firefox                                                                                                (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.3  0.0   0:03.68 rcu_sched                                                                                              (B[m[39;49m[K
+(B[m 1042 root      20   0   42800   1716   1468 S  0.3  0.2   0:08.02 vmtoolsd                                                                                               (B[m[39;49m[K
+(B[m 1814 embedded  20   0    4928    528    424 S  0.3  0.1   0:00.23 upstart-dbus-br                                                                                        (B[m[39;49m[K
+(B[m 1883 embedded  20   0  126948  15372   8948 S  0.3  1.5   0:02.12 unity-panel-ser                                                                                        (B[m[39;49m[K
+(B[m[1m31874 embedded  20   0    5576   2804   2344 R  0.3  0.3   0:00.03 top                                                                                                    (B[m[39;49m[K
+(B[m    1 root      20   0    4452   1820   1044 S  0.0  0.2   0:01.92 init                                                                                                   (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                                                                                               (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:02.86 ksoftirqd/0                                                                                            (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H                                                                                           (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh                                                                                                 (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0                                                                                            (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0   0:01.64 watchdog/0                                                                                             (B[m[39;49m[K
+(B[m   11 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 khelper                                                                                                (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs                                                                                              (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns                                                                                                  (B[m[39;49m[K
+(B[m   14 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf                                                                                                   (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd                                                                                             (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback                                                                                              (B[m[39;49m[K
+(B[m   17 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd                                                                                                   (B[m[39;49m[K
+(B[m   18 root      39  19       0      0      0 S  0.0  0.0   0:00.91 khugepaged                                                                                             (B[m[39;49m[K
+(B[m   19 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto                                                                                                 (B[m[39;49m[K
+(B[m   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd                                                                                            (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                 (B[m[39;49m[K
+(B[m   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd                                                                                                (B[m[39;49m[K
+(B[m   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff                                                                                                (B[m[39;49m[K
+(B[m   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md                                                                                                     (B[m[39;49m[K
+(B[m   25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq                                                                                             (B[m[39;49m[K
+(B[m   27 root      20   0       0      0      0 S  0.0  0.0   0:00.02 kworker/0:1                                                                                            (B[m[39;49m[K
+(B[m   29 root      20   0       0      0      0 S  0.0  0.0   0:06.46 kswapd0                                                                                                (B[m[39;49m[K
+(B[m   30 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark                                                                                          (B[m[39;49m[K
+(B[m   31 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                                                                                        (B[m[39;49m[K
+(B[m   43 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld                                                                                               (B[m[39;49m[K
+(B[m   44 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 acpi_thermal_pm                                                                                        (B[m[39;49m[K
+(B[m   45 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0                                                                                              (B[m[39;49m[K
+(B[m   46 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_0                                                                                             (B[m[39;49m[K
+(B[m   47 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1                                                                                              (B[m[39;49m[K[H(B[mtop - 23:51:20 up  1:50,  3 users,  load average: 0.19, 0.18, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m   202256 (B[m[39;49mused,(B[m[39;49m[1m   844268 (B[m[39;49mfree.(B[m[39;49m[1m   200496 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2001 embedded  20   0  307160  26656  13488 S  0.7  2.6   1:10.08 compiz                                                                                                 (B[m[39;49m[K
+(B[m 1042 root      20   0   42800   1716   1468 S  0.3  0.2   0:08.03 vmtoolsd                                                                                               (B[m[39;49m[K
+(B[m 1152 root      20   0  285292  46616   7188 S  0.3  4.5   1:52.16 Xorg                                                                                                   (B[m[39;49m[K
+(B[m 2459 embedded  20   0 1009548 310240  42016 S  0.3 30.3   6:06.42 firefox                                                                                                (B[m[39;49m[K
+(B[m[1m31874 embedded  20   0    5576   2804   2344 R  0.3  0.3   0:00.04 top                                                                                                    (B[m[39;49m[K
+(B[m    1 root      20   0    4452   1820   1044 S  0.0  0.2   0:01.92 init                                                                                                   (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                                                                                               (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:02.86 ksoftirqd/0                                                                                            (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H                                                                                           (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0   0:03.68 rcu_sched                                                                                              (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh                                                                                                 (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0                                                                                            (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0   0:01.64 watchdog/0                                                                                             (B[m[39;49m[K
+(B[m   11 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 khelper                                                                                                (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs                                                                                              (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns                                                                                                  (B[m[39;49m[K
+(B[m   14 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf                                                                                                   (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd                                                                                             (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback                                                                                              (B[m[39;49m[K
+(B[m   17 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd                                                                                                   (B[m[39;49m[K
+(B[m   18 root      39  19       0      0      0 S  0.0  0.0   0:00.91 khugepaged                                                                                             (B[m[39;49m[K
+(B[m   19 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto                                                                                                 (B[m[39;49m[K
+(B[m   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd                                                                                            (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                 (B[m[39;49m[K
+(B[m   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd                                                                                                (B[m[39;49m[K
+(B[m   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff                                                                                                (B[m[39;49m[K
+(B[m   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md                                                                                                     (B[m[39;49m[K
+(B[m   25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq                                                                                             (B[m[39;49m[K
+(B[m   27 root      20   0       0      0      0 S  0.0  0.0   0:00.02 kworker/0:1                                                                                            (B[m[39;49m[K
+(B[m   29 root      20   0       0      0      0 S  0.0  0.0   0:06.46 kswapd0                                                                                                (B[m[39;49m[K
+(B[m   30 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark                                                                                          (B[m[39;49m[K
+(B[m   31 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                                                                                        (B[m[39;49m[K
+(B[m   43 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld                                                                                               (B[m[39;49m[K
+(B[m   44 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 acpi_thermal_pm                                                                                        (B[m[39;49m[K
+(B[m   45 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0                                                                                              (B[m[39;49m[K
+(B[m   46 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_0                                                                                             (B[m[39;49m[K
+(B[m   47 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1                                                                                              (B[m[39;49m[K
+(B[m   48 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_1                                                                                             (B[m[39;49m[K
+(B[m   51 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrconf                                                                                          (B[m[39;49m[K
+(B[m   64 root      20   0       0      0      0 S  0.0  0.0   0:01.66 kworker/0:2                                                                                            (B[m[39;49m[K
+(B[m   72 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 deferwq                                                                                                (B[m[39;49m[K[?1l>[49;1H
+[?12l[?25h[K

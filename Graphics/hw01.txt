@@ -1,0 +1,36 @@
+과제 1-OpenGL 설치 및 sample program 실행 	09-17 | VIEW : 38
+1) 수업시간에 설명한 OpenGl을 설치해 보세요.
+2)  예제로 제시했던 문제를 작성하고 실행해보시오.
+   - 창의 바탕 화면의 색을 파랑에서 다른 색상으로 변경해 보시오.
+   - 창(window)에 사각형을 display 해보세요.
+   - 창에 다른 3차원 물체(구 나 주전자를 display 해보세요.)
+3) 창의 title은 학생 이름과 학번을 넣어 보세요.
+
+위 프로그램 결과와 실행 결과를 출력해서 제출하세요.
+
+제목: 과제 1 OpenGL 설치 및 예제 프로그램 실행.
+
+제출일 9월 20일
+
+담당교수
+
+// 
+// 코드
+// 
+#include <gl/gl.h>
+#include <gl/glaux.h>
+void CALLBACK my_display( )
+{
+glClearColor(0.0f, 0.0f, 1.0f, 1.0); //칠하기 색상을 'blue'로 설정
+glClear(GL_COLOR_BUFFER_BIT); //칠하기
+glColor3f(0.0f, 1.0f, 0.0f); // 그리기 색상을 'green'으로 설정
+glRectf(100.0f, 150.0f, 150.0f, 100.0f); //사각형 그리기
+glFlush(); //화면에 출력하여 보여주기
+}
+void main()
+{
+auxInitDisplayMode(AUX_SINGLE | AUX_RGBA);
+auxInitPosition (100, 100, 250, 250);
+auxInitWindow ("First Example");
+auxMainLoop(my_display()); // 그리기 함수를 호출
+}
